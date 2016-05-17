@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3513528709</fileChecksum>
+  <configuration>
+    <name>STM320518-EVAL</name>
+    <outputs>
+      <file>$PROJ_DIR$\stm32f0xx_it.c</file>
+      <file>$PROJ_DIR$\main.c</file>
+    </outputs>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\USART_TwoBoards\DataExchangeDMA\DataExchangeDMA.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\USART_TwoBoards\DataExchangeInterrupt\DataExchangeInterrupt.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\HyperTerminal_Interrupt\HyperTerminal_Interrupt.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\Printf\Printf.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\USART_AutoBaudRate\USART_AutoBaudRate.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\USART_WakeUpFromStop\USART_WakeUpFromStop.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All</name>
+      <member>
+        <project>Printf</project>
+        <configuration>STM320518-EVAL</configuration>
+      </member>
+      <member>
+        <project>DataExchangeDMA</project>
+        <configuration>STM320518-EVAL</configuration>
+      </member>
+      <member>
+        <project>DataExchangeInterrupt</project>
+        <configuration>STM320518-EVAL</configuration>
+      </member>
+      <member>
+        <project>HyperTerminal_Interrupt</project>
+        <configuration>STM320518-EVAL</configuration>
+      </member>
+      <member>
+        <project>USART_AutoBaudRate</project>
+        <configuration>STM320518-EVAL</configuration>
+      </member>
+      <member>
+        <project>USART_WakeUpFromStop</project>
+        <configuration>STM320518-EVAL</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

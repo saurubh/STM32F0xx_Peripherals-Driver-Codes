@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\ADC1_AnalogWatchdog\ADC1_AnalogWatchdog.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\ADC_DMA\ADC_DMA.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\ADC_LowPower\ADC_LowPower.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\Basic_Example\Basic_Example.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\Battery_Charge_Monitoring\Battery_Charge_Monitoring.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All</name>
+      <member>
+        <project>ADC_DMA</project>
+        <configuration>STM320518-EVAL</configuration>
+      </member>
+      <member>
+        <project>Battery_Charge_Monitoring</project>
+        <configuration>STM320518-EVAL</configuration>
+      </member>
+      <member>
+        <project>ADC_LowPower</project>
+        <configuration>STM320518-EVAL</configuration>
+      </member>
+      <member>
+        <project>ADC1_AnalogWatchdog</project>
+        <configuration>STM320518-EVAL</configuration>
+      </member>
+      <member>
+        <project>Basic_Example</project>
+        <configuration>STM320518-EVAL</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

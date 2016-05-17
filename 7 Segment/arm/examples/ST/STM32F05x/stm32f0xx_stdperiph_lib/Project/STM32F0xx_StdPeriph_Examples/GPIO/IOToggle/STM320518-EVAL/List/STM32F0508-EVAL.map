@@ -1,0 +1,247 @@
+###############################################################################
+#
+# IAR ELF Linker V7.30.1.7746/W32 for ARM                 08/Dec/2015  20:17:29
+# Copyright 2007-2014 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Exe\STM32F0508-EVAL.out
+#    Map file     =  
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\List\STM32F0508-EVAL.map
+#    Command line =  
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\main.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\startup_stm32f0xx.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm320518_eval.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm320518_eval_cec.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm320518_eval_i2c_ee.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm320518_eval_i2c_tsensor.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm320518_eval_lcd.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm320518_eval_spi_sd.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_adc.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_cec.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_comp.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_crc.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_dac.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_dbgmcu.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_dma.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_exti.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_flash.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_gpio.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_i2c.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_i2c_cpal.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_i2c_cpal_hal.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_it.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_iwdg.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_misc.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_pwr.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_rcc.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_rtc.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_spi.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_syscfg.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_tim.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_usart.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\stm32f0xx_wwdg.o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj\system_stm32f0xx.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull -o
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Exe\STM32F0508-EVAL.out
+#        --map
+#        C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\List\STM32F0508-EVAL.map
+#        --config "C:\Program Files\IAR Systems\Embedded Workbench
+#        7.0\arm\config\linker\ST\stm32f051x8.icf" --semihosting --entry
+#        __iar_program_start --vfe
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0800ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20001fff] { rw, block CSTACK, block HEAP };
+
+  Section          Kind        Address   Size  Object
+  -------          ----        -------   ----  ------
+"A1":                                    0xc0
+  .intvec          ro code  0x08000000   0xc0  startup_stm32f0xx.o [1]
+                          - 0x080000c0   0xc0
+
+"P1":                                   0x3a0
+  .text            ro code  0x080000c0  0x128  main.o [1]
+  .text            ro code  0x080001e8   0x72  stm32f0xx_gpio.o [1]
+  .text            ro code  0x0800025a   0x2a  zero_init3.o [5]
+  .text            ro code  0x08000284   0x18  stm32f0xx_rcc.o [1]
+  .text            ro code  0x0800029c   0xe8  system_stm32f0xx.o [1]
+  .text            ro code  0x08000384   0x28  data_init.o [5]
+  .iar.init_table  const    0x080003ac   0x10  - Linker created -
+  .text            ro code  0x080003bc   0x1a  cmain.o [5]
+  .text            ro code  0x080003d6    0x4  low_level_init.o [3]
+  .text            ro code  0x080003da    0x8  exit.o [3]
+  .text            ro code  0x080003e2    0xa  stm32f0xx_it.o [1]
+  .text            ro code  0x080003ec    0xa  cexit.o [5]
+  .text            ro code  0x080003f6    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x080003f8   0x14  exit.o [6]
+  .text            ro code  0x0800040c   0x10  startup_stm32f0xx.o [1]
+  .text            ro code  0x0800041c    0xc  cstartup_M.o [5]
+  .text            ro code  0x08000428    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x0800042a    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x0800042c    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x0800042e    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x08000430    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x08000432    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x08000434    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x08000436    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x08000438    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x0800043a    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x0800043c    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x0800043e    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x08000440    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x08000442    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x08000444    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x08000446    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x08000448    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x0800044a    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x0800044c    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x0800044e    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x08000450    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x08000452    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x08000454    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x08000456    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x08000458    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x0800045a    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x0800045c    0x2  startup_stm32f0xx.o [1]
+  .text            ro code  0x0800045e    0x2  startup_stm32f0xx.o [1]
+  .rodata          const    0x08000460    0x0  zero_init3.o [5]
+                          - 0x08000460  0x3a0
+
+"P2":                                   0x810
+  .bss             zero     0x20000000    0x8  main.o [1]
+  .bss             zero     0x20000008    0x4  main.o [1]
+  CSTACK                    0x20000010  0x800  <Block>
+    CSTACK         uninit   0x20000010  0x800  <Block tail>
+                          - 0x20000810  0x810
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xc:
+          0x20000000   0xc
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj: [1]
+    main.o                   296                12
+    startup_stm32f0xx.o      266
+    stm32f0xx_gpio.o         114
+    stm32f0xx_it.o            10
+    stm32f0xx_rcc.o           24
+    system_stm32f0xx.o       232
+    ----------------------------------------------
+    Total:                   942                12
+
+command line: [2]
+    ----------------------------------------------
+    Total:
+
+dl6M_tln.a: [3]
+    exit.o                     8
+    low_level_init.o           4
+    ----------------------------------------------
+    Total:                    12
+
+m6M_tl.a: [4]
+    ----------------------------------------------
+    Total:
+
+rt6M_tl.a: [5]
+    cexit.o                   10
+    cmain.o                   26
+    cstartup_M.o              12
+    data_init.o               40
+    zero_init3.o              42
+    ----------------------------------------------
+    Total:                   130
+
+shb_l.a: [6]
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
+
+    Linker created                     16    2 048
+--------------------------------------------------
+    Grand Total:           1 104       16    2 060
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                     Address  Size  Type      Object
+-----                     -------  ----  ----      ------
+?main                  0x080003bd        Code  Gb  cmain.o [5]
+CSTACK$$Base           0x20000010         --   Gb  - Linker created -
+CSTACK$$Limit          0x20000810         --   Gb  - Linker created -
+GPIO_Init              0x080001e9  0x6a  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_InitStructure     0x20000000   0x8  Data  Gb  main.o [1]
+GPIO_ResetBits         0x08000257   0x4  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_SetBits           0x08000253   0x4  Code  Gb  stm32f0xx_gpio.o [1]
+HardFault_Handler      0x080003e5   0x2  Code  Gb  stm32f0xx_it.o [1]
+NMI_Handler            0x080003e3   0x2  Code  Gb  stm32f0xx_it.o [1]
+PendSV_Handler         0x080003e9   0x2  Code  Gb  stm32f0xx_it.o [1]
+RCC_AHBPeriphClockCmd  0x08000285  0x14  Code  Gb  stm32f0xx_rcc.o [1]
+Region$$Table$$Base    0x080003ac         --   Gb  - Linker created -
+Region$$Table$$Limit   0x080003bc         --   Gb  - Linker created -
+SVC_Handler            0x080003e7   0x2  Code  Gb  stm32f0xx_it.o [1]
+SysTick_Handler        0x080003eb   0x2  Code  Gb  stm32f0xx_it.o [1]
+SystemInit             0x0800029d  0xcc  Code  Gb  system_stm32f0xx.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                       0x20001fff         --   Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                       0x20000000         --   Gb  command line/config [2]
+__cmain                0x080003bd        Code  Gb  cmain.o [5]
+__exit                 0x080003f9  0x14  Code  Gb  exit.o [6]
+__iar_data_init3       0x08000385  0x28  Code  Gb  data_init.o [5]
+__iar_program_start    0x0800041d        Code  Gb  cstartup_M.o [5]
+__iar_zero_init3       0x0800025b  0x2a  Code  Gb  zero_init3.o [5]
+__low_level_init       0x080003d7   0x4  Code  Gb  low_level_init.o [3]
+__vector_table         0x08000000        Data  Gb  startup_stm32f0xx.o [1]
+_call_main             0x080003c9        Code  Gb  cmain.o [5]
+_exit                  0x080003ed        Code  Gb  cexit.o [5]
+_main                  0x080003d3        Code  Gb  cmain.o [5]
+d                      0x20000008   0x4  Data  Gb  main.o [1]
+exit                   0x080003db   0x8  Code  Gb  exit.o [3]
+main                   0x0800015b  0x78  Code  Gb  main.o [1]
+seg                    0x080000c1  0x9a  Code  Gb  main.o [1]
+
+
+[1] = C:\Users\Saurabh\Dropbox\ARM\&seg\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\GPIO\IOToggle\STM320518-EVAL\Obj
+[2] = command line
+[3] = dl6M_tln.a
+[4] = m6M_tl.a
+[5] = rt6M_tl.a
+[6] = shb_l.a
+
+  1 104 bytes of readonly  code memory
+     16 bytes of readonly  data memory
+  2 060 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

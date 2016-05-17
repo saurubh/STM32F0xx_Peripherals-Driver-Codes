@@ -1,0 +1,352 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.60.1.5097/W32 for ARM               16/Jan/2015  14:40:49 #
+# Copyright 2007-2013 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F05x\stm32f0x #
+#                    x_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\USA #
+#                    RT\HyperTerminal_Interrupt\STM320518-EVAL\Exe\STM32F0508 #
+#                    -EVAL.out                                                #
+#    Map file     =  H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F05x\stm32f0x #
+#                    x_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\USA #
+#                    RT\HyperTerminal_Interrupt\STM320518-EVAL\List\STM32F050 #
+#                    8-EVAL.map                                               #
+#    Command line =  H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F05x\stm32f0x #
+#                    x_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\USA #
+#                    RT\HyperTerminal_Interrupt\STM320518-EVAL\Obj\main.o     #
+#                    H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F05x\stm32f0x #
+#                    x_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\USA #
+#                    RT\HyperTerminal_Interrupt\STM320518-EVAL\Obj\startup_st #
+#                    m32f0xx.o H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F05 #
+#                    x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Ex #
+#                    amples\USART\HyperTerminal_Interrupt\STM320518-EVAL\Obj\ #
+#                    stm320518_eval.o H:\Tevtron\ARM\USART2\arm\examples\ST\S #
+#                    TM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPe #
+#                    riph_Examples\USART\HyperTerminal_Interrupt\STM320518-EV #
+#                    AL\Obj\stm320518_eval_cec.o                              #
+#                    H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F05x\stm32f0x #
+#                    x_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\USA #
+#                    RT\HyperTerminal_Interrupt\STM320518-EVAL\Obj\stm320518_ #
+#                    eval_i2c_ee.o H:\Tevtron\ARM\USART2\arm\examples\ST\STM3 #
+#                    2F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPerip #
+#                    h_Examples\USART\HyperTerminal_Interrupt\STM320518-EVAL\ #
+#                    Obj\stm320518_eval_i2c_tsensor.o                         #
+#                    H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F05x\stm32f0x #
+#                    x_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\USA #
+#                    RT\HyperTerminal_Interrupt\STM320518-EVAL\Obj\stm320518_ #
+#                    eval_lcd.o H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F0 #
+#                    5x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_E #
+#                    xamples\USART\HyperTerminal_Interrupt\STM320518-EVAL\Obj #
+#                    \stm320518_eval_spi_sd.o H:\Tevtron\ARM\USART2\arm\examp #
+#                    les\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0 #
+#                    xx_StdPeriph_Examples\USART\HyperTerminal_Interrupt\STM3 #
+#                    20518-EVAL\Obj\stm32f0xx_adc.o                           #
+#                    H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F05x\stm32f0x #
+#                    x_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\USA #
+#                    RT\HyperTerminal_Interrupt\STM320518-EVAL\Obj\stm32f0xx_ #
+#                    cec.o H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F05x\st #
+#                    m32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exampl #
+#                    es\USART\HyperTerminal_Interrupt\STM320518-EVAL\Obj\stm3 #
+#                    2f0xx_comp.o H:\Tevtron\ARM\USART2\arm\examples\ST\STM32 #
+#                    F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph #
+#                    _Examples\USART\HyperTerminal_Interrupt\STM320518-EVAL\O #
+#                    bj\stm32f0xx_crc.o H:\Tevtron\ARM\USART2\arm\examples\ST #
+#                    \STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_Std #
+#                    Periph_Examples\USART\HyperTerminal_Interrupt\STM320518- #
+#                    EVAL\Obj\stm32f0xx_dac.o H:\Tevtron\ARM\USART2\arm\examp #
+#                    les\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0 #
+#                    xx_StdPeriph_Examples\USART\HyperTerminal_Interrupt\STM3 #
+#                    20518-EVAL\Obj\stm32f0xx_dbgmcu.o                        #
+#                    H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F05x\stm32f0x #
+#                    x_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\USA #
+#                    RT\HyperTerminal_Interrupt\STM320518-EVAL\Obj\stm32f0xx_ #
+#                    dma.o H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F05x\st #
+#                    m32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exampl #
+#                    es\USART\HyperTerminal_Interrupt\STM320518-EVAL\Obj\stm3 #
+#                    2f0xx_exti.o H:\Tevtron\ARM\USART2\arm\examples\ST\STM32 #
+#                    F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph #
+#                    _Examples\USART\HyperTerminal_Interrupt\STM320518-EVAL\O #
+#                    bj\stm32f0xx_flash.o H:\Tevtron\ARM\USART2\arm\examples\ #
+#                    ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_S #
+#                    tdPeriph_Examples\USART\HyperTerminal_Interrupt\STM32051 #
+#                    8-EVAL\Obj\stm32f0xx_gpio.o                              #
+#                    H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F05x\stm32f0x #
+#                    x_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\USA #
+#                    RT\HyperTerminal_Interrupt\STM320518-EVAL\Obj\stm32f0xx_ #
+#                    i2c.o H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F05x\st #
+#                    m32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exampl #
+#                    es\USART\HyperTerminal_Interrupt\STM320518-EVAL\Obj\stm3 #
+#                    2f0xx_it.o H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F0 #
+#                    5x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_E #
+#                    xamples\USART\HyperTerminal_Interrupt\STM320518-EVAL\Obj #
+#                    \stm32f0xx_iwdg.o H:\Tevtron\ARM\USART2\arm\examples\ST\ #
+#                    STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdP #
+#                    eriph_Examples\USART\HyperTerminal_Interrupt\STM320518-E #
+#                    VAL\Obj\stm32f0xx_misc.o H:\Tevtron\ARM\USART2\arm\examp #
+#                    les\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0 #
+#                    xx_StdPeriph_Examples\USART\HyperTerminal_Interrupt\STM3 #
+#                    20518-EVAL\Obj\stm32f0xx_pwr.o                           #
+#                    H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F05x\stm32f0x #
+#                    x_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\USA #
+#                    RT\HyperTerminal_Interrupt\STM320518-EVAL\Obj\stm32f0xx_ #
+#                    rcc.o H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F05x\st #
+#                    m32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exampl #
+#                    es\USART\HyperTerminal_Interrupt\STM320518-EVAL\Obj\stm3 #
+#                    2f0xx_rtc.o H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F #
+#                    05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_ #
+#                    Examples\USART\HyperTerminal_Interrupt\STM320518-EVAL\Ob #
+#                    j\stm32f0xx_spi.o H:\Tevtron\ARM\USART2\arm\examples\ST\ #
+#                    STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdP #
+#                    eriph_Examples\USART\HyperTerminal_Interrupt\STM320518-E #
+#                    VAL\Obj\stm32f0xx_syscfg.o H:\Tevtron\ARM\USART2\arm\exa #
+#                    mples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32 #
+#                    F0xx_StdPeriph_Examples\USART\HyperTerminal_Interrupt\ST #
+#                    M320518-EVAL\Obj\stm32f0xx_tim.o                         #
+#                    H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F05x\stm32f0x #
+#                    x_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\USA #
+#                    RT\HyperTerminal_Interrupt\STM320518-EVAL\Obj\stm32f0xx_ #
+#                    usart.o H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\USART\HyperTerminal_Interrupt\STM320518-EVAL\Obj\st #
+#                    m32f0xx_wwdg.o H:\Tevtron\ARM\USART2\arm\examples\ST\STM #
+#                    32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeri #
+#                    ph_Examples\USART\HyperTerminal_Interrupt\STM320518-EVAL #
+#                    \Obj\system_stm32f0xx.o --redirect _Printf=_PrintfFull   #
+#                    --redirect _Scanf=_ScanfFull -o                          #
+#                    H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F05x\stm32f0x #
+#                    x_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\USA #
+#                    RT\HyperTerminal_Interrupt\STM320518-EVAL\Exe\STM32F0508 #
+#                    -EVAL.out --map H:\Tevtron\ARM\USART2\arm\examples\ST\ST #
+#                    M32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPer #
+#                    iph_Examples\USART\HyperTerminal_Interrupt\STM320518-EVA #
+#                    L\List\STM32F0508-EVAL.map --config "C:\Program          #
+#                    Files\IAR Systems\Embedded Workbench                     #
+#                    6.5\arm\config\linker\ST\stm32f051x8.icf" --semihosting  #
+#                    --entry __iar_program_start --vfe                        #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0800ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20001fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address   Size  Object
+  -------            ----        -------   ----  ------
+"A1":                                      0xc0
+  .intvec            ro code  0x08000000   0xc0  startup_stm32f0xx.o [1]
+                            - 0x080000c0   0xc0
+
+"P1":                                     0x714
+  .text              ro code  0x080000c0  0x134  stm32f0xx_usart.o [1]
+  .text              ro code  0x080001f4  0x108  stm32f0xx_rcc.o [1]
+  .text              ro code  0x080002fc   0xae  I32DivModFast.o [5]
+  .text              ro code  0x080003aa    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080003ac    0x2  IntDivZer.o [5]
+  .text              ro code  0x080003ae    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080003b0   0xe8  system_stm32f0xx.o [1]
+  .text              ro code  0x08000498   0x8c  main.o [1]
+  .text              ro code  0x08000524   0x8a  stm32f0xx_gpio.o [1]
+  .text              ro code  0x080005ae    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080005b0   0x8c  stm32f0xx_it.o [1]
+  .text              ro code  0x0800063c   0x30  copy_init3.o [5]
+  .text              ro code  0x0800066c   0x28  data_init.o [5]
+  .iar.init_table    const    0x08000694   0x14  - Linker created -
+  .text              ro code  0x080006a8   0x1a  cmain.o [5]
+  .text              ro code  0x080006c2    0x4  low_level_init.o [3]
+  .text              ro code  0x080006c6    0x8  exit.o [3]
+  .text              ro code  0x080006ce    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080006d0    0xa  cexit.o [5]
+  .text              ro code  0x080006da    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x080006dc   0x14  exit.o [6]
+  .text              ro code  0x080006f0   0x10  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000700    0xc  cstartup_M.o [5]
+  .text              ro code  0x0800070c    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x0800070e    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000710    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000712    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000714    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000716    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000718    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x0800071a    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x0800071c    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x0800071e    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000720    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000722    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000724    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000726    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000728    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x0800072a    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x0800072c    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x0800072e    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000730    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000732    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000734    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000736    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000738    0x2  startup_stm32f0xx.o [1]
+  .rodata            const    0x0800073a    0x0  copy_init3.o [5]
+  Initializer bytes  ro data  0x0800073c   0x98  <for P2 s0>
+                            - 0x080007d4  0x714
+
+"P2", part 1 of 2:                         0x98
+  P2 s0                       0x20000000   0x98  <Init block>
+    .data            inited   0x20000000   0x86  stm32f0xx_it.o [1]
+    .data            inited   0x20000088   0x10  stm32f0xx_rcc.o [1]
+                            - 0x20000098   0x98
+
+"P2", part 2 of 2:                        0x800
+  CSTACK                      0x20000098  0x800  <Block>
+    CSTACK           uninit   0x20000098  0x800  <Block tail>
+                            - 0x20000898  0x800
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0x98:
+          0x0800073c  0x98
+    1 destination range, total size 0x98:
+          0x20000000  0x98
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\USART\HyperTerminal_Interrupt\STM320518-EVAL\Obj: [1]
+    main.o                   140
+    startup_stm32f0xx.o      264
+    stm32f0xx_gpio.o         138
+    stm32f0xx_it.o           140      134      134
+    stm32f0xx_rcc.o          264       18       16
+    stm32f0xx_usart.o        308
+    system_stm32f0xx.o       232
+    ----------------------------------------------
+    Total:                 1 486      152      150
+
+command line: [2]
+    ----------------------------------------------
+    Total:
+
+dl6M_tln.a: [3]
+    exit.o                     8
+    low_level_init.o           4
+    ----------------------------------------------
+    Total:                    12
+
+m6M_tl.a: [4]
+    ----------------------------------------------
+    Total:
+
+rt6M_tl.a: [5]
+    I32DivModFast.o          174
+    IntDivZer.o                2
+    cexit.o                   10
+    cmain.o                   26
+    copy_init3.o              48
+    cstartup_M.o              12
+    data_init.o               40
+    ----------------------------------------------
+    Total:                   312
+
+shb_l.a: [6]
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
+
+    Gaps                                         2
+    Linker created                     22    2 048
+--------------------------------------------------
+    Grand Total:           1 830      174    2 200
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address  Size  Type      Object
+-----                      -------  ----  ----      ------
+?main                   0x080006a9        Code  Gb  cmain.o [5]
+APBAHBPrescTable        0x20000088  0x10  Data  Lc  stm32f0xx_rcc.o [1]
+CSTACK$$Base            0x20000098         --   Gb  - Linker created -
+CSTACK$$Limit           0x20000898         --   Gb  - Linker created -
+GPIO_Init               0x08000525  0x6a  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_PinAFConfig        0x0800058f  0x20  Code  Gb  stm32f0xx_gpio.o [1]
+HardFault_Handler       0x080005b3   0x2  Code  Gb  stm32f0xx_it.o [1]
+NMI_Handler             0x080005b1   0x2  Code  Gb  stm32f0xx_it.o [1]
+NbrOfDataToRead         0x20000001   0x1  Data  Gb  stm32f0xx_it.o [1]
+NbrOfDataToTransfer     0x20000000   0x1  Data  Gb  stm32f0xx_it.o [1]
+PendSV_Handler          0x080005b7   0x2  Code  Gb  stm32f0xx_it.o [1]
+RCC_AHBPeriphClockCmd   0x080002b3  0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB1PeriphClockCmd  0x080002c7  0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_GetClocksFreq       0x080001f5  0xbe  Code  Gb  stm32f0xx_rcc.o [1]
+Region$$Table$$Base     0x08000694         --   Gb  - Linker created -
+Region$$Table$$Limit    0x080006a8         --   Gb  - Linker created -
+RxBuffer                0x20000064  0x20  Data  Gb  stm32f0xx_it.o [1]
+RxCount                 0x20000084   0x2  Data  Gb  stm32f0xx_it.o [1]
+SVC_Handler             0x080005b5   0x2  Code  Gb  stm32f0xx_it.o [1]
+SysTick_Handler         0x080005b9   0x2  Code  Gb  stm32f0xx_it.o [1]
+SystemInit              0x080003b1  0xcc  Code  Gb  system_stm32f0xx.o [1]
+TxBuffer                0x20000004  0x60  Data  Gb  stm32f0xx_it.o [1]
+TxCount                 0x20000002   0x1  Data  Gb  stm32f0xx_it.o [1]
+USART1_IRQHandler       0x080005bb  0x70  Code  Gb  stm32f0xx_it.o [1]
+USART_Cmd               0x08000149  0x16  Code  Gb  stm32f0xx_usart.o [1]
+USART_GetFlagStatus     0x080001af   0xe  Code  Gb  stm32f0xx_usart.o [1]
+USART_GetITStatus       0x080001bd  0x38  Code  Gb  stm32f0xx_usart.o [1]
+USART_ITConfig          0x08000185  0x2a  Code  Gb  stm32f0xx_usart.o [1]
+USART_Init              0x080000c1  0x88  Code  Gb  stm32f0xx_usart.o [1]
+USART_ReceiveData       0x08000167   0x8  Code  Gb  stm32f0xx_usart.o [1]
+USART_SendData          0x0800015f   0x8  Code  Gb  stm32f0xx_usart.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x20001fff         --   Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x20000000         --   Gb  command line/config [2]
+__aeabi_idiv0           0x080003ad        Code  Gb  IntDivZer.o [5]
+__aeabi_uidiv           0x080002fd        Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod        0x080002fd        Code  Gb  I32DivModFast.o [5]
+__cmain                 0x080006a9        Code  Gb  cmain.o [5]
+__exit                  0x080006dd  0x14  Code  Gb  exit.o [6]
+__iar_copy_init3        0x0800063d  0x30  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x0800066d  0x28  Code  Gb  data_init.o [5]
+__iar_program_start     0x08000701        Code  Gb  cstartup_M.o [5]
+__low_level_init        0x080006c3   0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000        Data  Gb  startup_stm32f0xx.o [1]
+_call_main              0x080006b5        Code  Gb  cmain.o [5]
+_exit                   0x080006d1        Code  Gb  cexit.o [5]
+_main                   0x080006bf        Code  Gb  cmain.o [5]
+exit                    0x080006c7   0x8  Code  Gb  exit.o [3]
+main                    0x08000499  0x8c  Code  Gb  main.o [1]
+
+
+[1] = H:\Tevtron\ARM\USART2\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\USART\HyperTerminal_Interrupt\STM320518-EVAL\Obj
+[2] = command line
+[3] = dl6M_tln.a
+[4] = m6M_tl.a
+[5] = rt6M_tl.a
+[6] = shb_l.a
+
+  1 830 bytes of readonly  code memory
+    174 bytes of readonly  data memory
+  2 200 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

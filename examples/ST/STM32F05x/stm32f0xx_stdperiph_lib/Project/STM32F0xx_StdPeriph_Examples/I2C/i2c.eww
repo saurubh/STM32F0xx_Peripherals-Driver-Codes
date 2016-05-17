@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\I2C_EEPROM\I2C_EEPROM.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\I2C_TSENSOR\I2C_TSENSOR.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\I2C_TwoBoards\I2C_TwoBoards.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\I2C_WakeUpFromStop\I2C_WakeUpFromStop.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All</name>
+      <member>
+        <project>I2C_EEPROM</project>
+        <configuration>STM320518-EVAL</configuration>
+      </member>
+      <member>
+        <project>I2C_TSENSOR</project>
+        <configuration>STM320518-EVAL</configuration>
+      </member>
+      <member>
+        <project>I2C_TwoBoards</project>
+        <configuration>STM320518-EVAL</configuration>
+      </member>
+      <member>
+        <project>I2C_WakeUpFromStop</project>
+        <configuration>STM320518-EVAL</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

@@ -1,0 +1,367 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.60.1.5097/W32 for ARM               09/Jan/2015  14:39:00 #
+# Copyright 2007-2013 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\s #
+#                    tm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examp #
+#                    les\TIM\6_steps\STM320518-EVAL\Exe\STM32F0508-EVAL.out   #
+#    Map file     =  H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\s #
+#                    tm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examp #
+#                    les\TIM\6_steps\STM320518-EVAL\List\STM32F0508-EVAL.map  #
+#    Command line =  "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\main.o"              #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\startup_stm32f0xx.o" #
+#                     "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x #
+#                    \stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exa #
+#                    mples\TIM\6_steps\STM320518-EVAL\Obj\stm320518_eval.o"   #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm320518_eval_cec.o #
+#                    " "H:\Tevtron\ARM\TIMER AND                              #
+#                    ADC\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Pr #
+#                    oject\STM32F0xx_StdPeriph_Examples\TIM\6_steps\STM320518 #
+#                    -EVAL\Obj\stm320518_eval_i2c_ee.o"                       #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm320518_eval_i2c_t #
+#                    sensor.o" "H:\Tevtron\ARM\TIMER AND                      #
+#                    ADC\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Pr #
+#                    oject\STM32F0xx_StdPeriph_Examples\TIM\6_steps\STM320518 #
+#                    -EVAL\Obj\stm320518_eval_lcd.o" "H:\Tevtron\ARM\TIMER    #
+#                    AND ADC\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_li #
+#                    b\Project\STM32F0xx_StdPeriph_Examples\TIM\6_steps\STM32 #
+#                    0518-EVAL\Obj\stm320518_eval_spi_sd.o"                   #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_adc.o"     #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_cec.o"     #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_comp.o"    #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_crc.o"     #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_dac.o"     #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_dbgmcu.o"  #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_dma.o"     #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_exti.o"    #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_flash.o"   #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_gpio.o"    #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_i2c.o"     #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_it.o"      #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_iwdg.o"    #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_misc.o"    #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_pwr.o"     #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_rcc.o"     #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_rtc.o"     #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_spi.o"     #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_syscfg.o"  #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_tim.o"     #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_usart.o"   #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\stm32f0xx_wwdg.o"    #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\Obj\system_stm32f0xx.o"  #
+#                    --redirect _Printf=_PrintfFull --redirect                #
+#                    _Scanf=_ScanfFull -o "H:\Tevtron\ARM\TIMER AND           #
+#                    ADC\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Pr #
+#                    oject\STM32F0xx_StdPeriph_Examples\TIM\6_steps\STM320518 #
+#                    -EVAL\Exe\STM32F0508-EVAL.out" --map                     #
+#                    "H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\ #
+#                    stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Exam #
+#                    ples\TIM\6_steps\STM320518-EVAL\List\STM32F0508-EVAL.map #
+#                    " --config "C:\Program Files\IAR Systems\Embedded        #
+#                    Workbench 6.5\arm\config\linker\ST\stm32f051x8.icf"      #
+#                    --semihosting --entry __iar_program_start --vfe          #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0800ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20001fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address   Size  Object
+  -------            ----        -------   ----  ------
+"A1":                                      0xc0
+  .intvec            ro code  0x08000000   0xc0  startup_stm32f0xx.o [1]
+                            - 0x080000c0   0xc0
+
+"P1":                                     0xaa8
+  .text              ro code  0x080000c0  0x2c8  stm32f0xx_tim.o [1]
+  .text              ro code  0x08000388  0x204  stm32f0xx_it.o [1]
+  .text              ro code  0x0800058c  0x1e4  main.o [1]
+  .text              ro code  0x08000770   0x30  stm32f0xx_rcc.o [1]
+  .text              ro code  0x080007a0   0x8a  stm32f0xx_gpio.o [1]
+  .text              ro code  0x0800082a   0x2a  zero_init3.o [5]
+  .text              ro code  0x08000854   0x50  stm32f0xx_misc.o [1]
+  .text              ro code  0x080008a4   0xae  I32DivModFast.o [5]
+  .text              ro code  0x08000952    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000954    0x2  IntDivZer.o [5]
+  .text              ro code  0x08000956    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000958   0xe8  system_stm32f0xx.o [1]
+  .text              ro code  0x08000a40   0x30  copy_init3.o [5]
+  .text              ro code  0x08000a70   0x28  data_init.o [5]
+  .iar.init_table    const    0x08000a98   0x24  - Linker created -
+  .text              ro code  0x08000abc   0x1a  cmain.o [5]
+  .text              ro code  0x08000ad6    0x4  low_level_init.o [3]
+  .text              ro code  0x08000ada    0x8  exit.o [3]
+  .text              ro code  0x08000ae2    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000ae4    0xa  cexit.o [5]
+  .text              ro code  0x08000aee    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000af0   0x14  exit.o [6]
+  .text              ro code  0x08000b04   0x10  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b14    0xc  cstartup_M.o [5]
+  .text              ro code  0x08000b20    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b22    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b24    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b26    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b28    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b2a    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b2c    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b2e    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b30    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b32    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b34    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b36    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b38    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b3a    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b3c    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b3e    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b40    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b42    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b44    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b46    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b48    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b4a    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b4c    0x2  startup_stm32f0xx.o [1]
+  .text              ro code  0x08000b4e    0x2  startup_stm32f0xx.o [1]
+  .rodata            const    0x08000b50    0x0  zero_init3.o [5]
+  .rodata            const    0x08000b50    0x0  copy_init3.o [5]
+  Initializer bytes  ro data  0x08000b50   0x18  <for P2 s0>
+                            - 0x08000b68  0xaa8
+
+"P2", part 1 of 3:                         0x18
+  P2 s0                       0x20000000   0x18  <Init block>
+    .data            inited   0x20000000   0x14  system_stm32f0xx.o [1]
+    .data            inited   0x20000014    0x4  stm32f0xx_it.o [1]
+                            - 0x20000018   0x18
+
+"P2", part 2 of 3:                         0x30
+  .bss               zero     0x20000018   0x30  main.o [1]
+                            - 0x20000048   0x30
+
+"P2", part 3 of 3:                        0x800
+  CSTACK                      0x20000048  0x800  <Block>
+    CSTACK           uninit   0x20000048  0x800  <Block tail>
+                            - 0x20000848  0x800
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x30:
+          0x20000018  0x30
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x18:
+          0x08000b50  0x18
+    1 destination range, total size 0x18:
+          0x20000000  0x18
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
+H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\TIM\6_steps\STM320518-EVAL\Obj: [1]
+    main.o                   484                48
+    startup_stm32f0xx.o      264
+    stm32f0xx_gpio.o         138
+    stm32f0xx_it.o           516        4        4
+    stm32f0xx_misc.o          80
+    stm32f0xx_rcc.o           48
+    stm32f0xx_tim.o          712
+    system_stm32f0xx.o       232       20       20
+    ----------------------------------------------
+    Total:                 2 474       24       72
+
+command line: [2]
+    ----------------------------------------------
+    Total:
+
+dl6M_tln.a: [3]
+    exit.o                     8
+    low_level_init.o           4
+    ----------------------------------------------
+    Total:                    12
+
+m6M_tl.a: [4]
+    ----------------------------------------------
+    Total:
+
+rt6M_tl.a: [5]
+    I32DivModFast.o          174
+    IntDivZer.o                2
+    cexit.o                   10
+    cmain.o                   26
+    copy_init3.o              48
+    cstartup_M.o              12
+    data_init.o               40
+    zero_init3.o              42
+    ----------------------------------------------
+    Total:                   354
+
+shb_l.a: [6]
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
+
+    Linker created                     36    2 048
+--------------------------------------------------
+    Grand Total:           2 860       60    2 120
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+?main                   0x08000abd         Code  Gb  cmain.o [5]
+AHBPrescTable           0x20000000   0x10  Data  Gb  system_stm32f0xx.o [1]
+CSTACK$$Base            0x20000048          --   Gb  - Linker created -
+CSTACK$$Limit           0x20000848          --   Gb  - Linker created -
+GPIO_Init               0x080007a1   0x6a  Code  Gb  stm32f0xx_gpio.o [1]
+GPIO_PinAFConfig        0x0800080b   0x20  Code  Gb  stm32f0xx_gpio.o [1]
+HardFault_Handler       0x0800038b    0x2  Code  Gb  stm32f0xx_it.o [1]
+NMI_Handler             0x08000389    0x2  Code  Gb  stm32f0xx_it.o [1]
+NVIC_Init               0x08000855   0x44  Code  Gb  stm32f0xx_misc.o [1]
+NVIC_SetPriority        0x0800058d   0x36  Code  Lc  main.o [1]
+PendSV_Handler          0x0800038f    0x2  Code  Gb  stm32f0xx_it.o [1]
+RCC_AHBPeriphClockCmd   0x08000771   0x14  Code  Gb  stm32f0xx_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x08000785   0x14  Code  Gb  stm32f0xx_rcc.o [1]
+Region$$Table$$Base     0x08000a98          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08000abc          --   Gb  - Linker created -
+SVC_Handler             0x0800038d    0x2  Code  Gb  stm32f0xx_it.o [1]
+SysTickConfig           0x08000705   0x3a  Code  Gb  main.o [1]
+SysTick_Handler         0x08000391    0xc  Code  Gb  stm32f0xx_it.o [1]
+SystemCoreClock         0x20000010    0x4  Data  Gb  system_stm32f0xx.o [1]
+SystemInit              0x08000959   0xcc  Code  Gb  system_stm32f0xx.o [1]
+TIM1_BRK_UP_TRG_COM_IRQHandler
+                        0x0800039d  0x1e6  Code  Gb  stm32f0xx_it.o [1]
+TIM_BDTRConfig          0x0800012d   0x20  Code  Gb  stm32f0xx_tim.o [1]
+TIM_BDTRInitStructure   0x20000038   0x10  Data  Gb  main.o [1]
+TIM_CCPreloadControl    0x080002f1   0x14  Code  Gb  stm32f0xx_tim.o [1]
+TIM_CCxCmd              0x08000331    0x8  Code  Gb  stm32f0xx_tim.o [1]
+TIM_CCxNCmd             0x08000339    0x6  Code  Gb  stm32f0xx_tim.o [1]
+TIM_ClearITPendingBit   0x08000383    0x6  Code  Gb  stm32f0xx_tim.o [1]
+TIM_Cmd                 0x08000119   0x14  Code  Gb  stm32f0xx_tim.o [1]
+TIM_Config              0x08000669   0x9c  Code  Gb  main.o [1]
+TIM_CtrlPWMOutputs      0x0800014d   0x22  Code  Gb  stm32f0xx_tim.o [1]
+TIM_GenerateEvent       0x0800037f    0x4  Code  Gb  stm32f0xx_tim.o [1]
+TIM_ITConfig            0x0800036d   0x12  Code  Gb  stm32f0xx_tim.o [1]
+TIM_OC1Init             0x0800016f   0x64  Code  Gb  stm32f0xx_tim.o [1]
+TIM_OC2Init             0x080001e5   0x5c  Code  Gb  stm32f0xx_tim.o [1]
+TIM_OC3Init             0x0800024d   0x5a  Code  Gb  stm32f0xx_tim.o [1]
+TIM_OCInitStructure     0x20000024   0x14  Data  Gb  main.o [1]
+TIM_SelectOCxM          0x080002ad   0x44  Code  Gb  stm32f0xx_tim.o [1]
+TIM_TimeBaseInit        0x080000c1   0x58  Code  Gb  stm32f0xx_tim.o [1]
+TIM_TimeBaseStructure   0x20000018    0xc  Data  Gb  main.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x20001fff          --   Gb  command line/config [2]
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x20000000          --   Gb  command line/config [2]
+__aeabi_idiv0           0x08000955         Code  Gb  IntDivZer.o [5]
+__aeabi_uidiv           0x080008a5         Code  Gb  I32DivModFast.o [5]
+__aeabi_uidivmod        0x080008a5         Code  Gb  I32DivModFast.o [5]
+__cmain                 0x08000abd         Code  Gb  cmain.o [5]
+__exit                  0x08000af1   0x14  Code  Gb  exit.o [6]
+__iar_copy_init3        0x08000a41   0x30  Code  Gb  copy_init3.o [5]
+__iar_data_init3        0x08000a71   0x28  Code  Gb  data_init.o [5]
+__iar_program_start     0x08000b15         Code  Gb  cstartup_M.o [5]
+__iar_zero_init3        0x0800082b   0x2a  Code  Gb  zero_init3.o [5]
+__low_level_init        0x08000ad7    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000         Data  Gb  startup_stm32f0xx.o [1]
+_call_main              0x08000ac9         Code  Gb  cmain.o [5]
+_exit                   0x08000ae5         Code  Gb  cexit.o [5]
+_main                   0x08000ad3         Code  Gb  cmain.o [5]
+exit                    0x08000adb    0x8  Code  Gb  exit.o [3]
+main                    0x080005c3   0xa6  Code  Gb  main.o [1]
+step                    0x20000014    0x4  Data  Gb  stm32f0xx_it.o [1]
+
+
+[1] = H:\Tevtron\ARM\TIMER AND ADC\arm\examples\ST\STM32F05x\stm32f0xx_stdperiph_lib\Project\STM32F0xx_StdPeriph_Examples\TIM\6_steps\STM320518-EVAL\Obj
+[2] = command line
+[3] = dl6M_tln.a
+[4] = m6M_tl.a
+[5] = rt6M_tl.a
+[6] = shb_l.a
+
+  2 860 bytes of readonly  code memory
+     60 bytes of readonly  data memory
+  2 120 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

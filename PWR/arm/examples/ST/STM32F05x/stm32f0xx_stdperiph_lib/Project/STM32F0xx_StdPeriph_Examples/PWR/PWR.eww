@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<workspace>
+  <project>
+    <path>$WS_DIR$\PWR_CurrentConsumption\PWR_CurrentConsumption.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\PWR_Standby\PWR_Standby.ewp</path>
+  </project>
+  <project>
+    <path>$WS_DIR$\PWR_Stop\PWR_Stop.ewp</path>
+  </project>
+  <batchBuild>
+    <batchDefinition>
+      <name>All</name>
+      <member>
+        <project>PWR_CurrentConsumption</project>
+        <configuration>STM320518-EVAL</configuration>
+      </member>
+      <member>
+        <project>PWR_Standby</project>
+        <configuration>STM320518-EVAL</configuration>
+      </member>
+      <member>
+        <project>PWR_Stop</project>
+        <configuration>STM320518-EVAL</configuration>
+      </member>
+    </batchDefinition>
+  </batchBuild>
+</workspace>
+
+

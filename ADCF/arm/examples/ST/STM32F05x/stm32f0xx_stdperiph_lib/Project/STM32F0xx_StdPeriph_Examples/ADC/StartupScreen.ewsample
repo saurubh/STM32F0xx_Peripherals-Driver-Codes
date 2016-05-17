@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<exampleInfo>
+  <copyDir>..\..\..\Libraries\CMSIS\</copyDir>
+  <copyDir>..\..\..\Libraries\STM32F0xx_CPAL_Driver\</copyDir>
+  <copyDir>..\..\..\Libraries\STM32F0xx_StdPeriph_Driver\</copyDir>
+  <copyDir>..\..\..\Utilities\STM32_EVAL\</copyDir>
+</exampleInfo>
